@@ -7,7 +7,7 @@ The backup includes:
 - /etc/weewx/skins
 - /usr/share/weewx/user
 
-The name of the tgz archive will be composed of *weewx-date.tgz*
+The name of the tgz archive will be composed of *weewx-date.tgz*.
 Two options can be used, with or without stopping weewx.
 
 On my Pi, the script runs every Sunday at 2 am as a cron job:
