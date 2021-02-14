@@ -30,6 +30,10 @@ echo "Backing up $backup_files4 to $dest/$archive_file"
 echo
 
 # Backup the files using tar.
+# Option 1 - no need to stop and restart weewx
+# tar czf $dest/$archive_file $backup_files1 $backup_files2 $backup_files3 $backup_files4
+# sqlite3 ".backup $dest/$backup_files1.backup"
+# Option 2 - stop and restart of weewx needed
 tar czf $dest/$archive_file $backup_files1 $backup_files2 $backup_files3 $backup_files4
 
 # Print end status message. Uncomment if done manually.
