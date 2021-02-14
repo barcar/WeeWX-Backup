@@ -1,7 +1,7 @@
 #!/bin/bash
 #####################################################################
 # Weewx Backup script for Raspberry Pi
-# Modified by Jan Stelling (2021-01-04)
+# Modified by Jan Stelling (2021-02-14)
 # after PapyLeCelte (https://github.com/PapyLeCelte/Weewx-Backup)
 #####################################################################
 
