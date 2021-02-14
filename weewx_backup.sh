@@ -32,13 +32,13 @@ echo
 # Backup the files using tar.
 tar czf $dest/$archive_file $backup_files1 $backup_files2 $backup_files3 $backup_files4
 
-# Print end status message.
-echo
-echo "Backup finished"
-echo
+# Print end status message. Uncomment if done manually.
+# echo
+# echo "Backup finished"
+# echo
 
 # Restart weewx
 sudo /etc/init.d/weewx start
 
-# Long listing of files in $dest to check file sizes.
-ls -lh $dest
+# Long listing of files in $dest to check success. Uncomment if done manually.
+# ls -lh $dest
