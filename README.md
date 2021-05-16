@@ -1,5 +1,5 @@
 # Weewx-Backup
-Original bash script worked by creating backups ona temporarily mounted USB drive. This modified version creates a backup to a mounted network temp drive that is mapped to `/home/pi/Shares/Temp`.
+Original bash script worked by creating backups ona temporarily mounted USB drive. This modified version creates a backup in `/home/pi` and moves it to a mounted network temp drive that is mapped to `/home/pi/Shares/Temp`.
 
 The backup includes:
 - /var/lib/weewx/weewx.sdb
