@@ -15,7 +15,7 @@ backup_files3="/etc/weewx/skins"
 backup_files4="/usr/share/weewx/user"
 
 # Where to backup
-dest="/mnt/data/backup/$HOSTNAME_weewx"
+dest="/mnt/data/backup/${HOSTNAME}_weewx"
 
 # Create archive filename
 day=$(date +%y%m%d)
